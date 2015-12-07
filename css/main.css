@@ -1,4 +1,40 @@
 * {
   box-sizing: border-box;
   font-family: 'Poppins';
+  color: white;
+}
+
+body {
+  background: rgba(0, 0, 0, .6) url(../img/seattle.jpg) no-repeat top center;
+  background-color: DeepSkyBlue;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.2em;
+  margin: 10px 0;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  color: blue;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  opacity: 0.35;
+}
+
+article {
+  opacity: 1;
+  background-color: black;
+  width: 300px;
 }
